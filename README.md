@@ -1,4 +1,5 @@
 # ring.middleware.statsd
+[![Build Status](https://travis-ci.org/loganlinn/ring.middleware.statsd.png?branch=master)](https://travis-ci.org/loganlinn/ring.middleware.statsd)
 
 Simple [ring](https://github.com/ring-clojure/ring) middlewares for collecting
 request/response metrics to [statsd](https://github.com/etsy/statsd/).
