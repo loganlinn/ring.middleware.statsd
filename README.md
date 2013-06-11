@@ -8,7 +8,7 @@ request/response metrics to [statsd](https://github.com/etsy/statsd/).
 Include in `project.clj`
 
 ```
-[loganlinn/ring.middleware.statsd "0.1.0"]
+[ring.middleware.statsd "0.1.0"]
 ```
 
 ### Configure statsd server
