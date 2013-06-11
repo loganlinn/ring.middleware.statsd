@@ -1,5 +1,5 @@
 (defproject ring.middleware.statsd "0.1.0"
-  :description "Middleware for reporting metrics to statsd"
+  :description "Middlewares for reporting request/response metrics to statsd"
   :url "https://github.com/loganlinn/ring.middleware.statsd"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
