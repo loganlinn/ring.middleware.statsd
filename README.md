@@ -27,6 +27,14 @@ Include in `project.clj`
 
 Records response time under timer, "resp_time"
 
+### `wrap-request-method-counter`
+
+```clojure
+;; record timers, "req_method.get", "req_method.post", and so on
+(def app
+  (wrap-request-method-counter handler :req_method))
+```
+
 ### `wrap-response-code-counter`
 
 ```clojure
