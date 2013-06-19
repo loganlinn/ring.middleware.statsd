@@ -6,10 +6,10 @@ request/response metrics to [statsd](https://github.com/etsy/statsd/).
 
 ## Usage
 
-Include in `project.clj`
+Current [semantic](http://semver.org/) version:
 
 ```
-[ring.middleware.statsd "0.1.0"]
+[ring.middleware.statsd "1.0.0"]
 ```
 
 ### Configure statsd server
