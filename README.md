@@ -12,6 +12,8 @@ Current [semantic](http://semver.org/) version:
 [ring.middleware.statsd "1.0.0"]
 ```
 
+[API Documentation](http://loganlinn.github.io/ring.middleware.statsd/)
+
 ### Configure statsd server
 
 ```clojure
