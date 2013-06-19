@@ -20,25 +20,29 @@ Current [semantic](http://semver.org/) version:
 
 ### `wrap-timer`
 
+Record response times under timer named "resp_time"
+
 ```clojure
 (def app
   (wrap-timer handler :resp_time))
 ```
 
-Records response time under timer, "resp_time"
 
 ### `wrap-request-method-counter`
 
+Record counters for request methods, as "req_method.get", "req_method.post", etc
+
 ```clojure
-;; record timers, "req_method.get", "req_method.post", and so on
 (def app
   (wrap-request-method-counter handler :req_method))
 ```
 
 ### `wrap-response-code-counter`
 
+Record counters for response statuses, as "resp_status.200", "resp_status.404",
+etc
+
 ```clojure
-;; record timers, "resp_status.200", "resp_status.404", and so on
 (def app
   (wrap-response-code-counter handler :resp_status))
 ```
